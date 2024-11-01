@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+main {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+    width: 100%;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: #80deea;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #4dd0e1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #e0e0e0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+section h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #cccccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #2a2a2a;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+ul li a {
+    color: #80deea;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+form {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #333;
+    border: 1px solid #555;
+    color: #e0e0e0;
+    border-radius: 5px;
+}
+
+form input[type="text"]::placeholder,
+form textarea::placeholder {
+    color: #888;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4dd0e1;
+    border: none;
+    color: #1a1a1a;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #80deea;
+}
+
+
+.comment {
+    background-color: #1f1f1f;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.comment p {
+    margin: 5px 0;
+    color: #cccccc;
+}
+
+.comment strong {
+    color: #80deea;
+}
